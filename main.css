@@ -1,0 +1,22 @@
+#result{
+    display: flex;
+}
+
+.country {
+    display: inline-block;
+    width: 33%;
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   padding-top: 66.67%; /* 3.2 Aspect Ratio */
+}
+
+.flag {
+   position:  absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
